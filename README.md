@@ -1,12 +1,21 @@
-# Pico-Devboard
+<h1 align="center">
+  Pico - Devboard
+  <br>
+</h1>
 
-A custom rp2040 devboard, but with 16MB flash and a lot of extra features!
+<h4 align="center">
+A pico sized custom rp2040 devboard, but with 16MB flash and a lot of extra features!
+</h4>
+<br>
 
+<div align="center">
 <img alt="Back Render" src="Images/BackRender.png" width="400">
 
 | Front Render                            | PCB                    |
 | --------------------------------------- | ---------------------- |
 | ![Front Render](Images/FrontRender.png) | ![PCB](Images/PCB.png) |
+
+</div>
 
 ## Motivation
 
