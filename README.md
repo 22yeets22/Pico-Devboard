@@ -2,9 +2,11 @@
 
 A custom rp2040 devboard, but with 16MB flash and a lot of extra features!
 
-![Front Render](/Images/FrontRender.png)
-![Back Render](/Images/BackRender.png)
-![PCB](/Images/PCB.png)
+<img alt="Back Render" src="Images/BackRender.png" width="400">
+
+| Front Render                            | PCB                    |
+| --------------------------------------- | ---------------------- |
+| ![Front Render](Images/FrontRender.png) | ![PCB](Images/PCB.png) |
 
 ## Features
 
@@ -13,7 +15,7 @@ A custom rp2040 devboard, but with 16MB flash and a lot of extra features!
 - USB-C
 - Battery input (Schottky diode OR-ing with USB)
 - 500mA LDO (10V max input)
-- VSYS voltage monitoring via resistor divider
+- VSYS voltage monitoring via resistor divider on ADC3
 - Onboard power LED
 - Onboard GPIO25 LED
 - Bootsel + Reset button
