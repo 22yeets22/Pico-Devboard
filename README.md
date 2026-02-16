@@ -42,26 +42,26 @@ Like a normal Pico:
 ## BOM
 
 A complete `BOM.csv` with direct links is provided in BOM.csv in the root directory.
-| Id | Designator | Footprint | Quantity | Comment | Supplier and Ref |
-|----|------------|------------|----------|----------|------------------|
-| 1 | SW2, SW1 | SW_Push_SPST_NO_Alps_SKRK | 2 | SW_Push | |
-| 2 | C16, C15 | C_0402_1005Metric | 2 | 33pF | |
-| 3 | U2 | SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BR | 1 | TPSPX3819M5-L-3-3 | |
-| 4 | R11 | R_0402_1005Metric | 1 | 100K | |
-| 5 | R10 | R_0402_1005Metric | 1 | 200K | |
-| 6 | D4, D3 | SOD-123FL_L2.8-W1.8-LS3.8-RD | 2 | FMBR120VLSFT1G | |
-| 7 | C9 | C_0402_1005Metric | 1 | 1nF | |
-| 8 | J1 | USB_C_Receptacle_HRO_TYPE-C-31-M-12 | 1 | USB_C_Receptacle_USB2.0_14P | |
-| 9 | C11, C8, C3, C10, C17, C5, C7, C6, C12, C2 | C_0402_1005Metric | 10 | 0.1uF | |
-| 10 | R4, R3 | R_0402_1005Metric | 2 | 27 | |
-| 11 | C1, C4 | C_0402_1005Metric | 2 | 1uF | |
-| 12 | R1, R2 | R_0402_1005Metric | 2 | 5.1K | |
-| 13 | J4 | PinHeader_1x03_P2.54mm_Vertical | 1 | Conn_01x03 | |
-| 14 | C14, C13 | C_0603_1608Metric | 2 | 10uF | |
-| 15 | D2, D1 | LED_0805_2012Metric | 2 | LED | |
-| 16 | R7 | R_0402_1005Metric | 1 | 10K | |
-| 17 | R9, R8, R5, R6 | R_0402_1005Metric | 4 | 1K | |
-| 18 | J3, J2 | PinHeader_1x20_P2.54mm_Vertical | 2 | Conn_01x20 | |
-| 19 | Y1 | Crystal_SMD_3225-4Pin_3.2x2.5mm | 1 | 12 MHz | |
-| 20 | U1 | QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm | 1 | RP2040 | |
-| 21 | U3 | SOIC-8_5.3x5.3mm_P1.27mm | 1 | W25Q128JVS | |
+| Designator | Comment | Footprint | Manufacturer | Part Number | JLCPCB Part # | Link | Qty | Total Price ($) |
+|------------|----------|------------|--------------|-------------|----------------|------|-----|-----------------|
+| C1, C4 | 1uF | 0402 | Samsung | CL05A105KA5NQNC | C52923 | https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923 | 10 | 0.033 |
+| C9 | 1nF | 0402 | FH | 0402B102K500NT | C1523 | https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523 | 5 | 0.006 |
+| C11, C8, C3, C10, C17, C5, C7, C6, C12, C2 | 0.1uF | 0402 | Samsung | CL05B104KO5NNNC | C1525 | https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525 | 50 | 0.065 |
+| C14, C13 | 10uF | 0603 | Samsung | CL10A106KP8NNNC | C19702 | https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702 | 10 | 0.065 |
+| C16, C15 | 33pF | 0402 | FH | 0402CG330J500NT | C1562 | https://jlcpcb.com/partdetail/1914-0402CG330J500NT/C1562 | 10 | 0.012 |
+| D2, D1 | LED (Red 0805) | 0805 | NationStar | NCD0805R1 | C84256 | https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256 | 10 | 0.131 |
+| D4, D3 | FMBR120VLSFT1G | SOD-123FL | FUXINSEMI | FMBR120VLSFT1G | C48677824 | https://jlcpcb.com/partdetail/FUXINSEMI-FMBR120VLSFT1G/C48677824 | 14 | 1.0444 |
+| J1 | USB-C 14P | SMD | Hroparts | TYPE-C-31-M-12 | C165948 | https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948 | 5 | 0.9055 |
+| R1, R2 | 5.1K | 0402 | UNI-ROYAL | 0402WGF5101TCE | C25905 | https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905 | 10 | 0.008 |
+| R4, R3 | 27Ω | 0402 | UNI-ROYAL | 0402WGF270JTCE | C25100 | https://jlcpcb.com/partdetail/25843-0402WGF270JTCE/C25100 | 22 | 0.0154 |
+| R7 | 10K | 0402 | UNI-ROYAL | 0402WGF1002TCE | C25744 | https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744 | 5 | 0.004 |
+| R9, R8, R5, R6 | 1K | 0402 | UNI-ROYAL | 0402WGF1001TCE | C11702 | https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 | 20 | 0.014 |
+| R10 | 200K | 0402 | UNI-ROYAL | 0402WGF2003TCE | C25764 | https://jlcpcb.com/partdetail/26507-0402WGF2003TCE/C25764 | 5 | 0.0035 |
+| R11 | 100K | 0402 | UNI-ROYAL | 0402WGF1003TCE | C25741 | https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741 | 5 | 0.004 |
+| SW2, SW1 | Tactile Switch | 4x3mm SMD | XUNPU | TS-1088-AR02016 | C720477 | https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477 | 10 | 0.476 |
+| U1 | RP2040 | LQFN-56 | Raspberry Pi | RP2040 | C2040 | https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040 | 5 | 4.827 |
+| U2 | TPSPX3819M5-L-3-3 | SOT-23-5 | TECH PUBLIC | TPSPX3819M5-L-3-3 | C5370980 | https://jlcpcb.com/partdetail/TECHPUBLIC-TPSPX3819M5_L_33/C5370980 | 7 | 0.6839 |
+| U3 | W25Q128JVSIQ | SOIC-8-208mil | Winbond | W25Q128JVSIQ | C97521 | https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521 | 5 | 11.637 |
+| Y1 | 12MHz Crystal | SMD3225-4P | YXC | X322512MSB4SI | C9002 | https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002 | 5 | 0.363 |
+| J3, J2 | 1x20 Pin Header | P2.54mm | — | Not Selected | — | — | — | — |
+| J4 | 1x03 Pin Header | P2.54mm | — | Not Selected | — | — | — | — |
