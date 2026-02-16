@@ -39,6 +39,10 @@ Like a normal Pico:
 2. Flash firmware using BOOTSEL mode (or make your own)
 3. Use onboard GPIO headers as you would with a standard Pico.
 
+## Firmware
+
+Untested waveshare 16mb - not my firmware, but has similar specs, so should work fine. Runs circuitpython.
+
 ## BOM
 
 A complete `BOM.csv` with direct links is provided in BOM.csv in the root directory.
