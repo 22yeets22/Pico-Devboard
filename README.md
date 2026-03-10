@@ -1,5 +1,5 @@
 <h1 align="center">
-  Pico - Devboard
+  Pico+ Devboard
   <br>
 </h1>
 
