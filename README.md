@@ -9,7 +9,9 @@ A pico sized custom rp2040 devboard, but with 16MB flash and a lot of extra feat
 <br>
 
 <div align="center">
-<img alt="Back Render" src="Images/BackRender.png" width="400">
+<img alt="Back Render" src="Images/BackRender.png" width="300">
+
+<img alt="Back Render" src="Images/frontpicture.png" width="300">
 
 | Front Render                            | PCB                    |
 | --------------------------------------- | ---------------------- |
